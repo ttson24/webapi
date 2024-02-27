@@ -1,0 +1,23 @@
+CREATE TABLE shop.data_trackings(
+    id character varying(16) not null,
+    product_id character varying(16) not null,
+    sender_first_name character varying(20),
+    sender_last_name character varying(50),
+    sender_post_code character varying(7),
+    sender_address character varying(255),
+    sender_email character varying(50),
+    sender_mobile character varying(15),
+    sender_reciver numeric(1),
+    reciver_first_name character varying(20),
+    reciver_last_name character varying(50),
+    reciver_post_code character varying(7),
+    reciver_address character varying(255),
+    reciver_email character varying(50),
+    reciver_mobile character varying(15),
+    payment_type character varying(16),
+    track_value numeric(5,2),
+    track_status numeric(3),
+    track_date character varying(20),
+    driver_name character varying(150),
+    driver_mobile character varying(15)
+);

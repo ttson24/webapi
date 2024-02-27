@@ -1,0 +1,21 @@
+CREATE TABLE manager.mst_users (
+    id character varying(16) not null,
+    username character varying(20) not null,
+    password character varying(16) not null,
+    first_name character varying(20),
+    last_name character varying(30),
+    email character varying(30),
+    post_code character varying(7),
+    address character varying(255),
+    tel character varying(15),
+    fax character varying(15),
+    mobile character varying(15), 
+    active character varying(1),
+    active_code character varying(16),
+    active_time character varying(20),
+    role_id character varying(16),
+    created_at character varying(20),
+    updated_at character varying(20),
+    deleted_at character varying(20),
+    primary key(id)
+);
